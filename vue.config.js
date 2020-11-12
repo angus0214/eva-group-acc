@@ -1,6 +1,6 @@
-//vue.confing.js
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/eva-group-acc/'
-    : '/'
+  "publicPath": "/",
+  "transpileDependencies": [
+    "vuetify"
+  ]
 }
