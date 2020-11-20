@@ -11,6 +11,7 @@ const routes = [
     path: '/',
     name: 'Dashboard',
     component: Dashboard,
+    props:true,
     children: [
       {
         path: 'newpin',
