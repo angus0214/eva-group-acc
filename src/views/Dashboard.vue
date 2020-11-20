@@ -24,10 +24,10 @@
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title class="text-body-1">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item two-line>
+        <v-list-item two-line style="position: absolute;bottom: 0;">
           <v-switch
             v-model="$vuetify.theme.dark"
             inset
@@ -52,9 +52,13 @@ export default {
   data() {
     return {
       navItems: [
-        { title: 'New Pin', icon: 'mdi-view-dashboard', link: '/newpin' },
-        { title: 'My Pins', icon: 'mdi-image', link: '/mypins' },
-        { title: 'All Pins', icon: 'mdi-help-box', link: '/allpins' },
+        { title: 'New Pin', icon: 'mdi-new-box', link: '/newpin' },
+        { title: 'My Pins', icon: 'mdi-alpha-p-box', link: '/mypins' },
+        {
+          title: 'All Pins',
+          icon: 'mdi-collapse-all-outline',
+          link: '/allpins',
+        },
       ],
       drawer: true,
     };
