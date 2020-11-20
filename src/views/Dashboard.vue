@@ -38,7 +38,7 @@
     </v-navigation-drawer>
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Calendar-APP</v-toolbar-title>
+      <v-toolbar-title>ACC - APP</v-toolbar-title>
     </v-app-bar>
     <v-main>
       <v-container fluid>

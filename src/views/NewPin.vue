@@ -7,7 +7,7 @@
       <v-text-field label="Url ..." solo></v-text-field>
     </v-col>
     <v-col cols="4" class="d-flex justify-center">
-      <v-btn elevation="2" large>Pin!</v-btn>
+      <v-btn to="/mypins" elevation="2" large>Pin!</v-btn>
     </v-col>
   </v-row>
 </template>
